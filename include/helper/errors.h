@@ -1,0 +1,24 @@
+#ifndef _ERRORS_H_
+#define _ERRORS_H_
+
+
+#define GENERIC_ERROR_BASE		(0x00)
+
+#define _EAGAIN					(GENERIC_ERROR_BASE + 1)
+#define _EINVAL					(GENERIC_ERROR_BASE + 2)
+#define _EBUSY 					(GENERIC_ERROR_BASE + 3)
+#define _EPERM 					(GENERIC_ERROR_BASE + 4)
+#define _ENOTSUPPORTED 			(GENERIC_ERROR_BASE + 5)
+#define _ENOTFOUND 				(GENERIC_ERROR_BASE + 6)
+#define _EINTERNAL				(GENERIC_ERROR_BASE + 7)
+#define _ENOMEM 				(GENERIC_ERROR_BASE + 8)
+#define _ETIME 	 				(GENERIC_ERROR_BASE + 9)
+#define _EIO 					(GENERIC_ERROR_BASE + 10)
+#define _EOVERFLOW				(GENERIC_ERROR_BASE + 11)
+#define _EINPROGRESS			(GENERIC_ERROR_BASE + 12)
+#define _ENOTIMPLEMENTED		(GENERIC_ERROR_BASE + 13)
+#define _ENOSPACE				(GENERIC_ERROR_BASE + 14)
+
+
+
+#endif
